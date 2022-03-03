@@ -1,0 +1,16 @@
+{
+  "name": "ltt-bot",
+  "version": "1.0.0",
+  "description": "this bot will anwser your questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baggette",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "pretty-ms": "^7.0.1"
+  }
+}

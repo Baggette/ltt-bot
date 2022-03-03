@@ -29,7 +29,8 @@ client.on('messageCreate', (message) =>{
             "ewwwww",
             "Baggette is cool",
             "Uno Reverse",
-            "my source code https://github.com/Baggette/ltt-bot"
+            "my source code https://github.com/Baggette/ltt-bot",
+            "<@530485284685479936> is the fake"
         ];
         message.channel.send(
             `${lucas[Math.floor(Math.random() * lucas.length)]}`

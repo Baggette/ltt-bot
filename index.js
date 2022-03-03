@@ -30,7 +30,11 @@ client.on('messageCreate', (message) =>{
             "Baggette is cool",
             "Uno Reverse",
             "my source code https://github.com/Baggette/ltt-bot",
-            "<@530485284685479936> is the fake"
+            "<@530485284685479936> is the fake",
+            "ligma",
+            "you *shutters* sicken me",
+            "you should give <@887756464020672523> some nitro",
+            "you are gay"
         ];
         message.channel.send(
             `${lucas[Math.floor(Math.random() * lucas.length)]}`

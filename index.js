@@ -14,7 +14,7 @@ client.on('ready', () => {
     client.user.setPresence({ activities: [{ name: 'Anwsering your questions' }], status: 'active' });
 });
 client.on('messageCreate', (message) =>{
-        if(message.content.startsWith(prefix)){
+        if(message.content.toLowerCase().startsWith(prefix)){
         let lucas = [
             "yes",
             "no",

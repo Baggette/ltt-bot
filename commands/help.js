@@ -14,5 +14,6 @@ module.exports={
             {name:"`t!help`", value:"This help menu"}
         )
         .setDescription("*note, most of these commands can be run with mentioning a user and the bot will mention the user upon sending the embed")
+        message.client.send({embeds:[embed]})
     }
 }

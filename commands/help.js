@@ -11,9 +11,10 @@ module.exports={
             {name:"`t!fpscalc`", value:"Why fps calculators are unreliable and inaccurate"},
             {name:"`t!userbench`", value:"Why userbenchmark is unreliable and cannot be trusted"},
             {name:"`t!ping`", value:"See bot latency and uptime"},
-            {name:"`t!help`", value:"This help menu"}
+            {name:"`t!help`", value:"This help menu"},
+            {name:"`t!source`", value:"View the source code of the bot"}
         )
         .setDescription("*note, most of these commands can be run with mentioning a user and the bot will mention the user upon sending the embed")
-        message.client.send({embeds:[embed]})
+        message.channel.send({embeds:[embed]})
     }
 }

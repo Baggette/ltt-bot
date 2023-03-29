@@ -1,7 +1,7 @@
 const {EmbedBuilder} = require("discord.js")
 module.exports={
     name:"help",
-    name:"List the commands of the bot",
+    description:"List the commands of the bot",
     execute(client, message, args){
         const embed = new EmbedBuilder()
         .setTitle("List of bot commands")

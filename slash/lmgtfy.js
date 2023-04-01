@@ -5,7 +5,7 @@ module.exports={
     .setDescription("Let me google that for you")
     .addStringOption(option =>
         option
-        .setName("lmgtfy query")
+        .setName("query")
         .setDescription("The query for the bot to generate the lmgtfy link")
         .setRequired(true)
     )
@@ -15,7 +15,7 @@ module.exports={
         .setDescription("user to ping after making the url")
     ),
     async execute(interaction, client){
-        const query = interaction.options.getString("lmgtfy query")
+        const query = interaction.options.getString("query")
         const user = interaction.options.getUser("user") || " "
         await interaction.reply(`https://letmegooglethat.com/?q=${encodeURIComponent(query)} ${user}`)
     }
